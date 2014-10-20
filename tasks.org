@@ -1,0 +1,156 @@
+#+TITLE: Data services project 
+#+AUTHOR: Markus Binsteiner
+#+EMAIL: markus.binsteiner@nesi.org.nz
+
+* TODO Data service project                             :taskjuggler_project:
+:PROPERTIES:
+:start: 2014-10-21
+:PROPERTY: allocate_ALL markus kieron ella
+:COLUMNS: %70ITEM(Task) %TODO %Effort %allocate %BLOCKER %ORDERED
+:END:      
+
+** TODO Project setup
+:PROPERTIES:
+:BLOCKER:  start
+:ORDERED:  t
+:END:
+*** TODO Project brief
+:PROPERTIES:
+:Effort:   1d
+:allocate: markus
+:BLOCKER:  
+:END:
+*** TODO RACI
+:PROPERTIES:
+:Effort:   2d
+:allocate: markus,ella
+:END:      
+** TODO Stakeholder analysis
+:PROPERTIES:
+:BLOCKER:  previous-sibling
+:ORDERED:  t
+:task_id:  stakeholder_analysis
+:END:
+*** TODO Stakeholder matrix
+:PROPERTIES:
+:Effort:   4d
+:allocate: markus, kieron
+:task_id:  stakeholder_matrix
+:END:      
+** TODO Requirements
+:PROPERTIES:
+:BLOCKER:  previous-sibling
+:ORDERED:  t
+:END:
+*** TODO Business requirements
+:PROPERTIES:
+:Effort:   3d
+:allocate: kieron
+:task_id:  business_req
+:END:
+*** TODO Interviews
+:PROPERTIES:
+:Effort:   14d
+:allocate: markus,matt
+:END:      
+*** TODO User stories
+:PROPERTIES:
+:Effort:   2d
+:allocate: markus
+:task_id:  user_stories
+:END:
+*** TODO Use-cases
+:PROPERTIES:
+:Effort:   2d
+:allocate: markus
+:task_id:  use_cases
+:END:
+** TODO Problem analysis
+:PROPERTIES:
+:BLOCKER:  previous-sibling
+:ORDERED:  t
+:task_id:  problem_analysis
+:END:
+*** TODO Identifying problem areas/service opportunities
+:PROPERTIES:
+:Effort:   2d
+:allocate: markus
+:task_id:  problem_ident
+:END:
+*** TODO Aligning problems with NeSI strategy 
+:PROPERTIES:
+:Effort:   2d
+:allocate: kieron
+:task_id:  problem_align
+:END:
+** TODO Solution
+:PROPERTIES:
+:BLOCKER:  previous-sibling
+:ORDERED:  t
+:END:
+*** TODO Creating a matrix of possible solutions
+:PROPERTIES:
+:Effort:   5d
+:allocate: markus
+:task_id:  solution_matrix
+:END:
+*** TODO Architecting best possible solution
+:PROPERTIES:
+:Effort:   10d
+:allocate: markus
+:task_id:  solution_architecture
+:END:
+** TODO Feasibility study
+:PROPERTIES:
+:BLOCKER:  previous-sibling
+:ORDERED:  t
+:task_id:  feasibility_study
+:END:
+*** TODO Feasibility report
+:PROPERTIES:
+:Effort:   5d
+:allocate: markus
+:task_id:  feasibility_report
+:END:
+** TODO Wrap-up
+:PROPERTIES:
+:BLOCKER:  previous-sibling
+:ORDERED:  t
+:END:
+*** TODO Recommendations report
+:PROPERTIES:
+:allocate: markus
+:Effort:   2d
+:END:
+
+* Resources                                            :taskjuggler_resource:
+
+** Markus Binsteiner
+:PROPERTIES:
+:resource_id: markus
+:END:      
+** Kieron Mottley
+:PROPERTIES:
+:resource_id: kieron
+:END:
+** Ella Rokotyan
+:PROPERTIES:
+:resource_id: ella
+:END:
+** Matt Healy
+:PROPERTIES:
+:resource_id: matt
+:END:
+** Vladimir Mencl
+:PROPERTIES:
+:resource_id: vlad
+:END:
+
+* Notes
+
+** DataFabric definition
+
+- discussion with Kieron about term: means online/cloud storage with associated interfaces/services for
+  - sharing
+  - desktop syncing
+  - transfer (except high volume data transfer/Globus Online, because that needs to be marketed separately)
