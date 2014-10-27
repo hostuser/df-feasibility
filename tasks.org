@@ -14,13 +14,13 @@
 :BLOCKER:  start
 :ORDERED:  t
 :END:
-*** TODO Project brief
+*** DONE Project brief
 :PROPERTIES:
 :Effort:   1d
 :allocate: markus
 :BLOCKER:  
 :END:
-*** TODO RACI
+*** DONE RACI
 :PROPERTIES:
 :Effort:   2d
 :allocate: markus,ella
@@ -58,6 +58,11 @@
 :Effort:   3d
 :allocate: kieron
 :task_id:  business_req
+:END:
+*** TODO Analyze user survey
+:PROPERTIES:
+:Effort:   2d
+:allocate: markus
 :END:
 *** TODO Interviews
 :PROPERTIES:
