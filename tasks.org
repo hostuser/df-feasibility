@@ -24,7 +24,13 @@
 :PROPERTIES:
 :Effort:   2d
 :allocate: markus,ella
-:END:      
+:END:
+*** TODO Sign-off project brief & RACI
+:PROPERTIES:
+:allocate: kieron
+:ORDERED:  
+:Effort:   7d
+:END:
 ** TODO Stakeholder analysis
 :PROPERTIES:
 :BLOCKER:  previous-sibling
@@ -36,7 +42,12 @@
 :Effort:   4d
 :allocate: markus, kieron
 :task_id:  stakeholder_matrix
-:END:      
+:END:
+*** TODO Sign-off stakeholder matrix
+:PROPERTIES:
+:allocate: kieron
+:Effort:   1d
+:END:
 ** TODO Requirements
 :PROPERTIES:
 :BLOCKER:  previous-sibling
@@ -77,7 +88,7 @@
 :allocate: markus
 :task_id:  problem_ident
 :END:
-*** TODO Aligning problems with NeSI strategy 
+*** TODO Aligning problems with NeSI strategy, signing off identified problems
 :PROPERTIES:
 :Effort:   2d
 :allocate: kieron
@@ -94,11 +105,21 @@
 :allocate: markus
 :task_id:  solution_matrix
 :END:
+*** Sign-off on possible solutions
+:PROPERTIES:
+:allocate: kieron
+:Effort:   1d
+:END:
 *** TODO Architecting best possible solution
 :PROPERTIES:
 :Effort:   10d
 :allocate: markus
 :task_id:  solution_architecture
+:END:
+*** Sign-off on architecture document
+:PROPERTIES:
+:allocate: kieron
+:Effort:   1d
 :END:
 ** TODO Feasibility study
 :PROPERTIES:
