@@ -1,13 +1,14 @@
 #+TITLE: Data services project 
 #+AUTHOR: Markus Binsteiner
 #+EMAIL: markus.binsteiner@nesi.org.nz
+# org-export-taskjuggler-default-reports: ("include \"reports.tji\"")
 
 * TODO Data service project                             :taskjuggler_project:
 :PROPERTIES:
 :start: 2014-10-21
 :PROPERTY: allocate_ALL markus kieron ella
-:COLUMNS: %70ITEM(Task) %TODO %Effort %allocate %BLOCKER %ORDERED
-:END:      
+:COLUMNS: %70ITEM(Task) %TODO %Effort %allocate %BLOCKER %ORDERED %start
+:END:
 
 ** TODO Project setup
 :PROPERTIES:
@@ -28,9 +29,9 @@
 *** TODO Sign-off project brief & RACI
 :PROPERTIES:
 :allocate: kieron
-:ORDERED:  
-:Effort:   7d
-:END:
+:Effort:   1d
+:start:    2014-11-03
+:END: 
 ** TODO Stakeholder analysis
 :PROPERTIES:
 :BLOCKER:  previous-sibling
