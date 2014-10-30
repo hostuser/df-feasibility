@@ -1,7 +1,6 @@
 #+TITLE: Data services project 
 #+AUTHOR: Markus Binsteiner
 #+EMAIL: markus.binsteiner@nesi.org.nz
-# org-export-taskjuggler-default-reports: ("include \"reports.tji\"")
 
 * TODO Data service project                             :taskjuggler_project:
 :PROPERTIES:
@@ -64,6 +63,16 @@
 :PROPERTIES:
 :Effort:   2d
 :allocate: markus
+:END:
+*** TODO Consolidate user stories from Otago
+:PROPERTIES:
+:allocate: markus
+:Effort:   3d
+:END:
+*** TODO Consolidate eresearch2020 input re: data
+:PROPERTIES:
+:Effort:   8d
+:allocate: markus,matt
 :END:
 *** TODO Interviews
 :PROPERTIES:
