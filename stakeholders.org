@@ -1,0 +1,40 @@
+
+
+| Organization           | Role             | Interest | Interaction                       | Influence | Comment                               | Expectations                                       |
+|------------------------+------------------+----------+-----------------------------------+-----------+---------------------------------------+----------------------------------------------------|
+| NeSI Directorate       | Sponsor          | High     | direct, via project updates       | High      |                                       | Recommendation for how to implement stable service |
+|                        |                  |          |                                   |           |                                       | that meets user expectations,                      |
+|                        |                  |          |                                   |           |                                       | fits within general NeSI data strategy             |
+| NeSI staff             | End-user support | Medium   | gathering use-cases, user-stories | Low       | Experience in what sort of service(s) | Plans to implement stable & easy to use service,   |
+|                        |                  |          |                                   |           | would be beneficial for end-users.    | which will be easy to help end-users integrate     |
+|                        |                  |          |                                   |           |                                       | into workflows.                                    |
+| Researchers            | End-users        | High     | user interviews, gathering        | High      | Need to identify which institutions/  | Stable and easy to use solution that is useful     |
+|                        |                  |          | user-stories, use-cases           |           | researchers to target for interviews. | to their current and future workflows.             |
+| Institutions/Faculties |                  | Medium   |                                   | Low       |                                       | Solution that integrates with existing/planned     |
+|                        |                  |          |                                   |           |                                       | local infrastructure.                              |
+| Hosting site(s)        | Hardware hosts   | Low      | Talk to IT/Network/security       | Medium    |                                       | Integrates with local IT infrastructure,           |
+|                        |                  |          | people                            |           |                                       | meets security expectations                        |
+
+* researchers
+
+** University of Auckland
+- as end users
+
+** University of Christchurch
+- as end users
+
+** Otago
+- as end users
+
+** Landcare
+- as end users
+
+** Other organizations
+- as end users
+* NeSI
+
+** Directorate
+- as hosting organisation
+
+** User support staff
+- need good tools to help end users do research/integrate workflows

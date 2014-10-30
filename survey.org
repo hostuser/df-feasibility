@@ -1,0 +1,17 @@
+* Survey analysis
+** Notes
+- only 50 odd answers, many of them either didn't use the DF or don't need it
+- hard to determine priorities which features are most
+- next time we should have more 'freestyle' fields, and less multiple-choice questions. Just not enough participants for that data to be useful.
+
+** Observations
+- sharing usually within groups of less than 10 people
+- nobody seems to need metadata (one person mentions metadata, but only in regards to research data provenance)
+
+** Requested features (in perceived order of importance)
+- sharing
+- desktop sync
+- better, faster interface(s)
+- accessible from compute cluster(s)
+- static, long-term storage (without the hassles/cost)
+- large volume storage

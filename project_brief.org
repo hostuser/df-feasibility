@@ -1,0 +1,23 @@
+
+* Questions:
+
+** Why is this project done now and not after a decision on what NeSI data services should be?
+- Since we determined that version 3 is good enough for now, why is there a need to figure out whether to transition to v4 in the nearish future, if we don't know yet whether it'll fit into our overall strategy?
+- What about lower-level questions, like on which hardware/filesystem do we store data on. This is independent of higher-level solutions like the datafabric.
+- Shouldn't we wait until we have some results from the survey?
+
+** What exactly constitutes the Data Fabric? We need a clear definition.
+- rule engine?
+- metadata?
+- webdav?
+- gridftp?
+- replication?
+- multi-site setup?
+- davis webinterface?
+- mounting of iRods on login node 
+
+** What happens if user-stories/use-cases are mainly about features the current DataFabric doesn't support?
+
+** What about areas where the DataFabric interfaces with components that are considered out of scope for this project?
+
+** Are we looking at the best solution, or only whether iRODS will be an acceptable solution? 
